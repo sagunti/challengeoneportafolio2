@@ -1,0 +1,1229 @@
+*{
+    padding: 0px; 
+    margin: 0px; 
+    box-sizing: border-box;    
+}
+body{
+    background: #F5F5F5;
+    width: 1440px;
+    height: 5020px;
+    margin: 20px auto;
+}
+.caja-padre{        
+    position: relative;   
+    margin: 0 auto;
+}
+
+.caja{
+    width: 1136px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 88px;
+    flex: none;
+    margin: 0 auto;
+}
+.div-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 140px;
+    height: 24px;
+}
+.logo{
+    width: 23px;
+}
+.div-logo a{
+    text-decoration: none;
+    color: #464646;  
+}
+.logo{   
+    width: 24px;
+    height: 24px;
+}
+.texto-logo{
+    width: 140px;
+    height: 20px;
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;  
+}
+ul {
+    list-style: none;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 653px;
+    height: 19px;
+}
+.nav-links li a{
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.5px;
+    line-height: 19px;
+    color: #464646;
+    text-decoration: none;
+}
+/*
+.nav-links-uno{
+    width: 67px;
+    height: 19px;
+}
+*/
+.section-mi-nombre{
+    width: 1136px;
+    display: flex;
+    flex-direction: row;
+    height: 368px;
+    margin: 0 auto;    
+    align-items: center;   
+    margin-bottom: 50px;    
+}
+.mi-nombre{
+    gap: 24px;
+    width: 67%;
+    height: 300px;
+}
+.mi-nombre h2{    
+    height: 200px;
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 61px;
+    color: #464646;
+}
+.mi-nombre p{   
+    height: 52px;
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    align-self: stretch;
+    margin-bottom: 20px;
+}
+.mi-nombre ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 78px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.mi-nombre ul li{
+    width: 130px;
+    height: 25px;
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.mi-nombre ul li a{
+    text-decoration: none;  
+    color: #464646;        
+}
+.foto-porfolio{   
+    width:33%;
+    flex: none;
+    text-align: end;
+}
+
+.section-sobre-mi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 10px;
+    width: 1440px;
+    height: 383px;
+    background: #f5e2ca;
+}
+.div-sobre-mi{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 255px;
+}
+.div-sobre-mi h2{
+    width: 137px;
+    height: 38px;
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+.div-sobre-mi p{
+    width: 751px;
+    height: 133px;
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+.firma{
+    height: 52px;
+}
+.skill-hobbies-academia{
+    align-items: center;
+    padding: 0px;
+    gap: 88px;
+    width: 1440px;
+    height: 1045px;
+    align-self: stretch;
+}
+.div-skills, .div-hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1136px;
+    height: 244px;
+    margin: 10px auto;
+}
+.div-skills h2, .div-hobbies h2 {
+    width: 82px;
+    height: 38px;
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+}
+.ul-skills, .ul-hobbies{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 174px;
+}
+.ul-skills li, .ul-hobbies li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+}
+.ul-skills li h3, .ul-hobbies li h3{
+    width: 144px;
+    height: 19px;
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #464646;
+    flex: none;
+}
+.ul-skills li img, .ul-hobbies li img{
+    height: 37px;
+}
+
+.div-formacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1136px;
+    height: 244px;
+    margin: 10px auto;
+}
+.div-formacion h2{
+    width: 339px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+}
+
+.ul-formacion{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 347px;
+    flex: none;
+}
+.ul-formacion li{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 368px;
+    height: 347px;
+}
+.ul-formacion li h3{
+    width: 300px;
+    height: 26px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+}
+.ul-formacion li div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 368px;
+    height: 286px;
+    background: #FFFFFF;
+}
+.ul-formacion li div img{
+    width: 192px;
+    height: 130px;
+}
+.ul-formacion li p{
+    height: 25px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+.experiencia-profesional{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1136px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.experiencia-profesional h2{
+    width: 361px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+    margin-bottom: 20px;
+}
+.experiencias{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+    width: 1136px;
+    height: 1816px;
+}
+.trabajo-uno, .trabajo-dos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 406px;
+}
+.trabajo-uno img, .trabajo-dos img{
+    width: 752px;
+    height: 406px;
+    border-radius: 0px;
+}
+.descripcion-trabajo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 368px;
+    height: 112px;
+}
+.descripcion-trabajo h3{
+    width: 368px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+}
+.descripcion-trabajo p{
+    width: 368px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 560px;
+    height: 51px;
+}
+.boton-transparente{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 116px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+}
+.boton-transparente a{
+    width: 84px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    text-decoration: none
+}
+.boton-azul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 116px;
+    height: 51px;
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+}
+.boton-azul a{
+    width: 84px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1440px;
+    height: 92  0px;
+    margin: 0 auto;
+    background: #EAF2FD;   
+}
+.contacto{
+    width: 1136px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 0px 0px;
+    gap: 16px;
+    margin: 0 auto;
+}
+.contacto img{
+    width: 464px;
+    height: 593px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.titulo-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 656px;
+    height: 130px;
+    gap: 15px;
+}
+.titulo-contacto h2{
+    width: 141px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+.titulo-contacto p{
+    width: 656px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+.input-padron, .input{
+    width: 656px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: transparent;
+}
+.textarea{
+    width: 656px;
+    height: 133px;
+    background: #FFFFFF;
+    border-radius: 4px;   
+}
+form ::placeholder{
+    width: 250px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #464646;                                 
+}
+
+.enviar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 144px;           
+    height: 51px;
+    background: #2A7AE4;
+    border: transparent;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 10px;
+    width: 1440px;
+    height: 102px;
+    background: #FFFFFF;
+    margin-top: 20px;
+}
+footer p{
+    width: 600px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #464646;
+}
+
+/*hasta 768pixeles de pantalla*/
+@media screen and (max-width:768px){
+    body{
+        position: relative;
+        width: 768px;
+        height: 3550px;
+        margin: 0 auto;
+    }
+    .caja-padre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        position: absolute;
+        width: 768px;
+        height: 3550px;
+        left: 0px;
+        top: 0px;
+    }
+    .caja{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 32px;
+        gap: 10px;
+        width: 768px;
+        height: 56px;
+    }
+    .invisible{
+        display: none;
+    }
+    .nav-links{
+       justify-content: center;
+   }
+
+   .section-mi-nombre{
+        width: 768px;
+        height: 270px;
+        padding: 32px;
+        gap: 32px;
+        margin: 0 auto;    
+        align-items: center;   
+    }
+    .mi-nombre{
+        width: 67%;
+        height: 210px;
+    }
+    .mi-nombre h2{    
+        height: 80px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;  
+    }
+    .mi-nombre p{   
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .foto-porfolio {   
+        width: 210px;
+        height: 210px;
+    }
+    .foto-porfolio img{   
+        width: 200px;
+        height: 200px;
+    }
+    .section-sobre-mi{
+        margin: 0 auto;
+        padding: 32px;
+        gap: 10px;
+        width: 768px;
+        height: 286px;
+    }
+    .div-sobre-mi{
+        width: 704px;
+        height: 222px;
+    }
+    .div-sobre-mi h2{
+        width: 94px;
+        height: 26px;
+        font-size: 22px;
+        line-height: 26px;
+    } 
+    .div-sobre-mi p{
+        width: 704px;
+        height: 112px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .skill-hobbies-academia{
+        width: 768px;
+        height: 1100px;
+        margin: 0 auto;
+    }
+
+    .div-skills, .div-hobbies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 32px;
+        gap: 32px;
+        width: 768px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .div-skills h2, .div-hobbies h2 {
+        width: 57px;
+        height: 26px;
+        font-size: 22px;
+        line-height: 26px;        
+    }
+    .ul-skills, .ul-hobbies{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; /*acomode en responsive para que se baje las li*/ 
+        width: 704px;
+        height: 250px;
+    }
+    .ul-skills li, .ul-hobbies li{
+        padding: 16px;
+        gap: 8px;
+        width: 224px;
+        height: 118px;
+    }
+    .div-formacion{
+        width: 768px;
+        height: 280px;
+        margin: 10px auto;
+    }
+    .div-formacion h2{
+        width: 233px;
+        height: 26px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .ul-formacion{
+        width: 704px;
+        height: 168px;
+    }
+    .ul-formacion li{
+        width: 224px;
+        height: 200px;
+    }
+    .ul-formacion li h3{
+        width: 200px;
+        height: 19px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .ul-formacion li div{
+        width: 224px;
+        height: 118px;
+    }
+    
+    .ul-formacion li div img{
+        width: 84px;
+        height: 58px;
+    }
+
+    .ul-formacion li p{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .experiencia-profesional{
+        width: 768px;
+        height: 1100px;
+        margin: 0 auto;
+    }
+
+    .experiencia-profesional h2{
+        width: 350px;
+        height: 26px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .experiencias{
+        width: 704px;
+        height: 1022px;
+    }
+    .trabajo-uno{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+        width: 704px;
+        height: 450px;
+    }
+    .trabajo-dos{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:flex-start;
+        padding: 0px;
+        gap: 16px;
+        width: 704px;
+        height: 450px;
+    }
+    .trabajo-uno img, .trabajo-dos img{
+        width: 704px;
+        height: 320px;
+        border-radius: 0px;
+    }
+
+    .descripcion-trabajo{
+        width: 704px;
+        height: 91px;
+    }
+    .descripcion-trabajo h3{
+        width: 704px;
+        height: 19px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .descripcion-trabajo p{
+        width: 704px;
+        height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .botones{
+        height: 40px;
+    }
+    .boton-transparente{
+        padding: 12px 16px;
+        width: 108px;
+        height: 40px;
+    }
+    .boton-transparente a{
+        width: 76px;
+        height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+        }
+    .boton-azul{
+        padding: 12px 16px;
+        width: 108px;
+        height: 40px;
+    }
+    .boton-azul a{
+        width: 76px;
+        height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .rodape{
+        width: 768px;
+        height: 700px;
+    }
+    .contacto{
+        width: 768px;
+        height: 637px;
+        padding: 0px 10px 0px 0px;
+        gap: 10px;   
+    }    
+    .contacto img{
+        display: none;
+    }   
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin: 0 auto;
+    }
+    .titulo-contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        width: 656px;
+        height: 110px;
+        gap: 15px;
+        }
+    .titulo-contacto h2{
+        width: 97px;
+        height: 26px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .titulo-contacto p{
+        width: 656px;
+        height: 15px;
+        gap: 1px;
+    }
+    .input-padron, .input{
+        width: 656px;
+        height: 56px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        border: transparent;
+    }
+    .textarea{
+        width: 656px;
+        height: 133px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        border: transparent;
+    }
+        form ::placeholder{
+            font-size: 15px;
+            line-height: 19px;                          
+        }
+    footer{
+        width: 768px;
+        height: 102px;
+    }
+    footer p{
+        width: 600px;
+        height: 38px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+    }     
+    .enviar{
+        width: 133px;           
+        height: 40px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+}
+/*360*/
+@media screen and (max-width:390px){
+    body{
+        position: relative;
+        width: 360px;
+        height: 4475px;
+    }
+    .caja-padre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        position: absolute;
+        width: 360px;
+        height: 4475px;
+    }
+    .caja{
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        align-items: center;
+        padding: 10px;
+        gap: 35px;
+        width: 360px;
+        height: 36px;
+    }
+    .invisible{
+        display: none;
+    }
+    .nav-links{
+       justify-content: right;
+       width: 160px;
+       height: 19px;
+   }
+    .nav-links li a{
+        font-size: 14px;
+        line-height: 16px;
+        text-align: start; 
+    }
+   .section-mi-nombre{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: start;
+        align-items:flex-start;
+        width: 360px;
+        height: 400px;
+    }
+    .mi-nombre{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 6px;
+        width: 328px;
+        height: 148px;
+    }
+    .mi-nombre h2{    
+        width: 328;
+        height: 78px;
+    }
+    .mi-nombre p{   
+        width: 328px;
+        height: 60px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .mi-nombre ul{
+        padding: 0px;
+        gap: 1px;
+        width: 40px;
+        height: 24px;
+    }
+    .mi-nombre ul li{
+        width: 100px;
+        height: 25px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .foto-porfolio {
+        display:flex;
+        flex-direction: column;   
+        width: 100px;
+        height: 100px;
+    }
+    .foto-porfolio img{   
+        width: 98px;
+        height: 98px;
+    }
+    .section-sobre-mi{
+        margin: 0 auto;
+        padding: 16px;
+        gap: 10px;
+        width: 360px;
+        height: 350px;
+    }
+    .div-sobre-mi{
+        width: 328px;
+        height: 318px;
+        margin: 0 auto;
+    }
+    .div-sobre-mi h2{
+        width: 94px;
+        height: 26px;
+        font-size: 22px;
+        line-height: 26px;
+    } 
+    .div-sobre-mi p{
+        width: 318px;
+        height: 112px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .skill-hobbies-academia{
+        width: 360px;
+        height: 1570px;
+    }
+    .div-skills, .div-hobbies{
+        padding: 12px;
+        gap: 12px;
+        width: 360px;
+        height: 465px;
+        margin: 0 auto;
+    }
+    .div-skills h2, .div-hobbies h2 {
+        width: 57px;
+        height: 26px;
+        font-size: 22px;
+        line-height: 26px;        
+    }
+    .ul-skills, .ul-hobbies{
+        width: 300px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .ul-skills li, .ul-hobbies li{
+        padding: 16px;
+        gap: 5px;
+        width: 140px;
+        height: 118px;
+    }
+    .div-formacion{
+        width: 360px;
+        height: 460px;
+        margin: 10px auto;
+    }
+     .ul-formacion{
+        width: 296px;
+        height: 460px;
+        flex-wrap: wrap;
+    }
+    .ul-formacion li{
+        width: 296px;
+        height: 169px;
+    }
+    .ul-formacion li h3{
+        width: 200px;
+        height: 19px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .ul-formacion li div{
+        width: 296px;
+        height: 118px;
+    }    
+    .ul-formacion li div img{
+        width: 104px;
+        height: 78px;
+    }
+    .ul-formacion li p{
+        font-size: 14px;
+        line-height: 16px;
+    }    
+    .experiencia-profesional{
+        width: 360px;
+        height: 720px;
+        margin: 0 auto;
+    }
+    .experiencias{
+        width: 296px;
+        height: 650px;
+        gap: 24px;
+    }
+    .trabajo-uno{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+        width: 296px;
+        height: 300px;
+    }
+    .trabajo-dos{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:flex-start;
+        padding: 0px;
+        gap: 10px;
+        width: 296px;
+        height: 300px;
+    }
+    .trabajo-uno img, .trabajo-dos img{
+        width: 296px;
+        height: 144px;
+        border-radius: 0px;
+    }
+    .descripcion-trabajo{
+        width: 296px;
+        height: 130px;
+    }
+    .descripcion-trabajo h3{
+        width: 296px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .descripcion-trabajo p{
+        width: 704px;
+        height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .botones{
+        height: 40px;
+    }
+    .boton-transparente{
+        padding: 12px 16px;
+        width: 108px;
+        height: 40px;
+    }
+    .boton-transparente a{
+        width: 76px;
+        height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+        }
+    .boton-azul{
+        padding: 12px 16px;
+        width: 108px;
+        height: 40px;
+    }
+    .boton-azul a{
+        width: 76px;
+        height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .rodape{
+        width: 360px;
+        height: 660px;
+    }
+    .contacto{
+        width: 360px;
+        height: 600px;
+        padding: 0px 10px 0px 0px;
+        gap: 10px;   
+    }    
+    .contacto img{
+        display: none;
+    }   
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin: 0 auto;
+    }
+    .titulo-contacto{
+        width: 296px;
+        height: 110px;
+        gap: 8px;
+    }
+    .titulo-contacto h2{
+        width: 97px;
+        height: 26px;   
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .titulo-contacto p{
+        width: 296px;
+        height: 76px;
+        gap: 0px;
+    }
+    .input-padron, .input{
+        width: 296px;
+        height: 56px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        border: transparent;
+    }
+    .textarea{
+        width: 296px;
+        height: 133px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        border: transparent;
+    }
+    form ::placeholder{
+            font-size: 15px;
+            line-height: 19px;                          
+        }
+    .enviar{
+        width: 133px;           
+        height: 40px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    footer{
+        width: 360px;
+        height: 102px;
+    }
+    footer p{
+        width: 360px;
+        height: 38px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+    }    
+
+}
